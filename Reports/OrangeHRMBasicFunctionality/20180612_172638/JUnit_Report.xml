@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRMBasicFunctionality" time="2" tests="0" failures="5" errors="0">
+   <testsuite name="OrangeHRMBasicFunctionality" tests="0" failures="5" errors="0" time="2" timestamp="2018-06-12 17:26:40" hostname="Stellium - 10.1.10.88" id="Test Suites/OrangeHRMBasicFunctionality">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stellium\\Katalon Studio\\StelliumTesting\\Reports\\OrangeHRMBasicFunctionality\\20180612_172638"/>
+         <property name="logFiles" value="C:\\Users\\Stellium\\Katalon Studio\\StelliumTesting\\Reports\\OrangeHRMBasicFunctionality\\20180612_172638\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stellium - 10.1.10.88"/>
+         <property name="hostAddress" value="10.1.10.88"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-06-12 17:26:41 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:41 - [TEST_STEP][PASSED] - Comment - "Open Browser as Specified": null
+
+2018-06-12 17:26:41 - [TEST_STEP][FAILED] - setText: Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-12 17:26:42 - [MESSAGE][FAILED] - Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-06-12 17:26:41 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddEmployee" classname="Test Cases/AddEmployee" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/pim/viewEmployeeList/reset/1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-06-12 17:26:42 - [TEST_CASE][FAILED] - Test Cases/AddEmployee: Test Cases/AddEmployee FAILED because (of) Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/pim/viewEmployeeList/reset/1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:42 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/pim/viewEmployeeList/reset/1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-12 17:26:42 - [MESSAGE][FAILED] - Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/pim/viewEmployeeList/reset/1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-06-12 17:26:42 - [TEST_CASE][FAILED] - Test Cases/AddEmployee: Test Cases/AddEmployee FAILED because (of) Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/pim/viewEmployeeList/reset/1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddUser" classname="Test Cases/AddUser" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/admin/viewSystemUsers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-06-12 17:26:42 - [TEST_CASE][FAILED] - Test Cases/AddUser: Test Cases/AddUser FAILED because (of) Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/admin/viewSystemUsers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:42 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/admin/viewSystemUsers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-12 17:26:42 - [MESSAGE][FAILED] - Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/admin/viewSystemUsers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-06-12 17:26:42 - [TEST_CASE][FAILED] - Test Cases/AddUser: Test Cases/AddUser FAILED because (of) Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/admin/viewSystemUsers' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddVacancy" classname="Test Cases/AddVacancy" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/recruitment/viewJobVacancy' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-06-12 17:26:42 - [TEST_CASE][FAILED] - Test Cases/AddVacancy: Test Cases/AddVacancy FAILED because (of) Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/recruitment/viewJobVacancy' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:42 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-06-12 17:26:42 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-06-12 17:26:42 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/recruitment/viewJobVacancy' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-12 17:26:42 - [MESSAGE][FAILED] - Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/recruitment/viewJobVacancy' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-06-12 17:26:42 - [TEST_CASE][FAILED] - Test Cases/AddVacancy: Test Cases/AddVacancy FAILED because (of) Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/recruitment/viewJobVacancy' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" classname="Test Cases/Logout" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/dashboard' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-06-12 17:26:43 - [TEST_CASE][FAILED] - Test Cases/Logout: Test Cases/Logout FAILED because (of) Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/dashboard' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:43 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/dashboard' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-06-12 17:26:43 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-12 17:26:43 - [MESSAGE][FAILED] - Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/dashboard' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-06-12 17:26:43 - [TEST_CASE][FAILED] - Test Cases/Logout: Test Cases/Logout FAILED because (of) Unable to navigate to 'http://opensource.demo.orangehrmlive.com/index.php/dashboard' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-12 17:26:40 - [TEST_SUITE][FAILED] - OrangeHRMBasicFunctionality: Test Cases/Login FAILED because (of) Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-06-12 17:26:40 - [TEST_SUITE][FAILED] - OrangeHRMBasicFunctionality: Test Cases/Login FAILED because (of) Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'STELLIUM2', ip: '10.1.10.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

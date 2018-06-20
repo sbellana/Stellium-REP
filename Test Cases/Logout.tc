@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Logging out of Web Application</description>
+   <name>Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>073898a7-04b0-4445-ad5a-887c1a705e11</testCaseGuid>
+</TestCaseEntity>

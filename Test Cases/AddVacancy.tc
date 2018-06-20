@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adding Employment Vacancy</description>
+   <name>AddVacancy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5c687ad-9513-42c4-b05a-86906e87363f</testCaseGuid>
+</TestCaseEntity>

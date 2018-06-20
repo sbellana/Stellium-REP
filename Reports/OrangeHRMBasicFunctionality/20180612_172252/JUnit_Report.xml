@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRMBasicFunctionality" time="17" tests="5" failures="0" errors="0">
+   <testsuite name="OrangeHRMBasicFunctionality" tests="5" failures="0" errors="0" time="17" timestamp="2018-06-12 17:22:54" hostname="Stellium - 10.1.10.88" id="Test Suites/OrangeHRMBasicFunctionality">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stellium\\Katalon Studio\\StelliumTesting\\Reports\\OrangeHRMBasicFunctionality\\20180612_172252"/>
+         <property name="logFiles" value="C:\\Users\\Stellium\\Katalon Studio\\StelliumTesting\\Reports\\OrangeHRMBasicFunctionality\\20180612_172252\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stellium - 10.1.10.88"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.1.10.88"/>
+         <property name="sessionId" value="9c175b84c15903e15b0429c07d129caa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-06-12 17:22:55 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-06-12 17:22:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://opensource.demo.orangehrmlive.com/'
+
+2018-06-12 17:23:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://opensource.demo.orangehrmlive.com/'
+
+2018-06-12 17:23:00 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername'
+
+2018-06-12 17:23:00 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/Login Page/input_txtUsername'
+
+2018-06-12 17:23:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/Login Page/input_txtPassword'
+
+2018-06-12 17:23:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/Login Page/input_txtPassword'
+
+2018-06-12 17:23:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/Login Page/input_Submit' is clicked on
+
+2018-06-12 17:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/Login Page/input_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddEmployee" classname="Test Cases/AddEmployee" status="PASSED">
+         <system-out><![CDATA[2018-06-12 17:23:02 - [TEST_CASE][PASSED] - Test Cases/AddEmployee: Test Cases/AddEmployee
+
+2018-06-12 17:23:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/pim/viewEmployeeList/reset/1' successfully
+
+2018-06-12 17:23:03 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/pim/viewEmployeeList/reset/1' successfully
+
+2018-06-12 17:23:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/Employee List Page/input_btnAdd' is clicked on
+
+2018-06-12 17:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/Employee List Page/input_btnAdd' is clicked on
+
+2018-06-12 17:23:03 - [TEST_STEP][PASSED] - setText: Text 'Jithesh' is set on object 'Object Repository/Page_OrangeHRM/Employee List Page/input_firstName'
+
+2018-06-12 17:23:04 - [MESSAGE][PASSED] - Text 'Jithesh' is set on object 'Object Repository/Page_OrangeHRM/Employee List Page/input_firstName'
+
+2018-06-12 17:23:04 - [TEST_STEP][PASSED] - setText: Text 'Rajasekhran' is set on object 'Object Repository/Page_OrangeHRM/Employee List Page/input_lastName'
+
+2018-06-12 17:23:04 - [MESSAGE][PASSED] - Text 'Rajasekhran' is set on object 'Object Repository/Page_OrangeHRM/Employee List Page/input_lastName'
+
+2018-06-12 17:23:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/Employee List Page/input_btnSave' is clicked on
+
+2018-06-12 17:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/Employee List Page/input_btnSave' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddUser" classname="Test Cases/AddUser" status="PASSED">
+         <system-out><![CDATA[2018-06-12 17:23:05 - [TEST_CASE][PASSED] - Test Cases/AddUser: Test Cases/AddUser
+
+2018-06-12 17:23:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/admin/viewSystemUsers' successfully
+
+2018-06-12 17:23:05 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/admin/viewSystemUsers' successfully
+
+2018-06-12 17:23:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/UserPage/input_btnAdd' is clicked on
+
+2018-06-12 17:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/UserPage/input_btnAdd' is clicked on
+
+2018-06-12 17:23:06 - [TEST_STEP][PASSED] - setText: Text ' ' is set on object 'Object Repository/Page_OrangeHRM/UserPage/input_systemUseremployeeNameem'
+
+2018-06-12 17:23:06 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Page_OrangeHRM/UserPage/input_systemUseremployeeNameem'
+
+2018-06-12 17:23:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/UserPage/EmployeeListInstance1' is clicked on
+
+2018-06-12 17:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/UserPage/EmployeeListInstance1' is clicked on
+
+2018-06-12 17:23:06 - [TEST_STEP][PASSED] - setText: Text 'Stellium123' is set on object 'Object Repository/Page_OrangeHRM/UserPage/input_systemUseruserName'
+
+2018-06-12 17:23:06 - [MESSAGE][PASSED] - Text 'Stellium123' is set on object 'Object Repository/Page_OrangeHRM/UserPage/input_systemUseruserName'
+
+2018-06-12 17:23:06 - [TEST_STEP][PASSED] - setText: Text 'Stellium@12' is set on object 'Object Repository/Page_OrangeHRM/UserPage/input_systemUserpassword'
+
+2018-06-12 17:23:07 - [MESSAGE][PASSED] - Text 'Stellium@12' is set on object 'Object Repository/Page_OrangeHRM/UserPage/input_systemUserpassword'
+
+2018-06-12 17:23:07 - [TEST_STEP][PASSED] - setText: Text 'Stellium@12' is set on object 'Object Repository/Page_OrangeHRM/UserPage/input_systemUserconfirmPasswor'
+
+2018-06-12 17:23:07 - [MESSAGE][PASSED] - Text 'Stellium@12' is set on object 'Object Repository/Page_OrangeHRM/UserPage/input_systemUserconfirmPasswor'
+
+2018-06-12 17:23:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/UserPage/input_btnSave' is clicked on
+
+2018-06-12 17:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/UserPage/input_btnSave' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddVacancy" classname="Test Cases/AddVacancy" status="PASSED">
+         <system-out><![CDATA[2018-06-12 17:23:07 - [TEST_CASE][PASSED] - Test Cases/AddVacancy: Test Cases/AddVacancy
+
+2018-06-12 17:23:07 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-06-12 17:23:07 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-06-12 17:23:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/recruitment/viewJobVacancy' successfully
+
+2018-06-12 17:23:08 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/recruitment/viewJobVacancy' successfully
+
+2018-06-12 17:23:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/Vacancy Page/input_btnAdd' is clicked on
+
+2018-06-12 17:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/Vacancy Page/input_btnAdd' is clicked on
+
+2018-06-12 17:23:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '8' are selected in object 'Object Repository/Page_OrangeHRM/Vacancy Page/select_-- Select --Account Cle'  using regular expression
+
+2018-06-12 17:23:08 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Page_OrangeHRM/Vacancy Page/select_-- Select --Account Cle'  using regular expression
+
+2018-06-12 17:23:08 - [TEST_STEP][PASSED] - setText: Text 'FullTime' is set on object 'Object Repository/Page_OrangeHRM/Vacancy Page/input_addJobVacancyname'
+
+2018-06-12 17:23:09 - [MESSAGE][PASSED] - Text 'FullTime' is set on object 'Object Repository/Page_OrangeHRM/Vacancy Page/input_addJobVacancyname'
+
+2018-06-12 17:23:09 - [TEST_STEP][PASSED] - setText: Text ' ' is set on object 'Object Repository/Page_OrangeHRM/Vacancy Page/input_addJobVacancyhiringManag'
+
+2018-06-12 17:23:09 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Page_OrangeHRM/Vacancy Page/input_addJobVacancyhiringManag'
+
+2018-06-12 17:23:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/Vacancy Page/li_HR Manager' is clicked on
+
+2018-06-12 17:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/Vacancy Page/li_HR Manager' is clicked on
+
+2018-06-12 17:23:09 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/Page_OrangeHRM/Vacancy Page/input_addJobVacancynoOfPositio'
+
+2018-06-12 17:23:09 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Page_OrangeHRM/Vacancy Page/input_addJobVacancynoOfPositio'
+
+2018-06-12 17:23:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/Vacancy Page/input_btnSave' is clicked on
+
+2018-06-12 17:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/Vacancy Page/input_btnSave' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2018-06-12 17:23:10 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2018-06-12 17:23:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/dashboard' successfully
+
+2018-06-12 17:23:10 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/dashboard' successfully
+
+2018-06-12 17:23:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/logout' successfully
+
+2018-06-12 17:23:11 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/logout' successfully
+
+2018-06-12 17:23:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 17:23:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-12 17:22:54 - [TEST_SUITE][PASSED] - OrangeHRMBasicFunctionality: Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

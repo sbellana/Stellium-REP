@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a Review to an employee</description>
+   <name>AddPerformanceReview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cc9f5da-b6ab-4144-ba5c-1c860b866441</testCaseGuid>
+</TestCaseEntity>

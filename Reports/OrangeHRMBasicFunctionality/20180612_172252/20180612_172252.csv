@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+OrangeHRMBasicFunctionality,Chrome 66.0.3359.181,Navigating through web page Orange HRM and perform some actions in web page,2018-06-12 17:22:54,2018-06-12 17:23:12,17.783s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 66.0.3359.181,Login to Orange HRM Website,2018-06-12 17:22:55,2018-06-12 17:23:02,7.776s,PASSED
+openBrowser,Chrome 66.0.3359.181,Open Browser as Specified,2018-06-12 17:22:55,2018-06-12 17:23:00,4.922s,PASSED
+setText,Chrome 66.0.3359.181,Enter Username,2018-06-12 17:23:00,2018-06-12 17:23:00,0.286s,PASSED
+setText,Chrome 66.0.3359.181,Enter Password,2018-06-12 17:23:00,2018-06-12 17:23:01,0.209s,PASSED
+click,Chrome 66.0.3359.181,Click on Submit,2018-06-12 17:23:01,2018-06-12 17:23:02,1.753s,PASSED
+,,,,,,
+Test Cases/AddEmployee,Chrome 66.0.3359.181,,2018-06-12 17:23:02,2018-06-12 17:23:05,2.369s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,Navigate to Employee List Page,2018-06-12 17:23:03,2018-06-12 17:23:03,0.471s,PASSED
+click,Chrome 66.0.3359.181,Click Add to add new employee,2018-06-12 17:23:03,2018-06-12 17:23:03,0.441s,PASSED
+setText,Chrome 66.0.3359.181,Enter 1st name,2018-06-12 17:23:03,2018-06-12 17:23:04,0.198s,PASSED
+setText,Chrome 66.0.3359.181,Enter Last Name,2018-06-12 17:23:04,2018-06-12 17:23:04,0.217s,PASSED
+click,Chrome 66.0.3359.181,Click Save,2018-06-12 17:23:04,2018-06-12 17:23:05,0.811s,PASSED
+,,,,,,
+Test Cases/AddUser,Chrome 66.0.3359.181,Add an User,2018-06-12 17:23:05,2018-06-12 17:23:07,2.356s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,Navigate to User Page,2018-06-12 17:23:05,2018-06-12 17:23:05,0.520s,PASSED
+click,Chrome 66.0.3359.181,Click Add to add User,2018-06-12 17:23:05,2018-06-12 17:23:06,0.498s,PASSED
+setText,Chrome 66.0.3359.181,Check for Hint of Employees available,2018-06-12 17:23:06,2018-06-12 17:23:06,0.141s,PASSED
+click,Chrome 66.0.3359.181,Enter Employee name that is already available,2018-06-12 17:23:06,2018-06-12 17:23:06,0.161s,PASSED
+setText,Chrome 66.0.3359.181,Enter UserName,2018-06-12 17:23:06,2018-06-12 17:23:06,0.209s,PASSED
+setText,Chrome 66.0.3359.181,Enter Password,2018-06-12 17:23:06,2018-06-12 17:23:07,0.293s,PASSED
+setText,Chrome 66.0.3359.181,Confirm Password,2018-06-12 17:23:07,2018-06-12 17:23:07,0.212s,PASSED
+click,Chrome 66.0.3359.181,Click Save,2018-06-12 17:23:07,2018-06-12 17:23:07,0.116s,PASSED
+,,,,,,
+Test Cases/AddVacancy,Chrome 66.0.3359.181,Adding Employment Vacancy,2018-06-12 17:23:07,2018-06-12 17:23:10,2.698s,PASSED
+callTestCase,Chrome 66.0.3359.181,,2018-06-12 17:23:07,2018-06-12 17:23:07,0.002s,NOT_RUN
+navigateToUrl,Chrome 66.0.3359.181,Navigate to Job Vacancy Page,2018-06-12 17:23:07,2018-06-12 17:23:08,0.329s,PASSED
+click,Chrome 66.0.3359.181,Click on Add to Create Vacancy,2018-06-12 17:23:08,2018-06-12 17:23:08,0.406s,PASSED
+selectOptionByValue,Chrome 66.0.3359.181,Fill in Job Title,2018-06-12 17:23:08,2018-06-12 17:23:08,0.378s,PASSED
+setText,Chrome 66.0.3359.181,Fill in JobVacancy Type,2018-06-12 17:23:08,2018-06-12 17:23:09,0.159s,PASSED
+setText,Chrome 66.0.3359.181,Click for Hint,2018-06-12 17:23:09,2018-06-12 17:23:09,0.151s,PASSED
+click,Chrome 66.0.3359.181,Fill in HR Name,2018-06-12 17:23:09,2018-06-12 17:23:09,0.138s,PASSED
+setText,Chrome 66.0.3359.181,Enter no of positions available,2018-06-12 17:23:09,2018-06-12 17:23:09,0.217s,PASSED
+click,Chrome 66.0.3359.181,Save the entry,2018-06-12 17:23:09,2018-06-12 17:23:10,0.705s,PASSED
+,,,,,,
+Test Cases/Logout,Chrome 66.0.3359.181,Logging out of Web Application,2018-06-12 17:23:10,2018-06-12 17:23:12,1.942s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,Navigate to Main Page,2018-06-12 17:23:10,2018-06-12 17:23:10,0.255s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,Click Logout,2018-06-12 17:23:10,2018-06-12 17:23:11,0.871s,PASSED
+closeBrowser,Chrome 66.0.3359.181,Close Browser,2018-06-12 17:23:11,2018-06-12 17:23:12,0.620s,PASSED

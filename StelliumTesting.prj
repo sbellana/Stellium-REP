@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>This Project is to create multiple demos using Katalon in different applications</description>
+   <name>StelliumTesting</name>
+   <tag></tag>
+   <UUID>4185d867-b152-4686-a24b-81ca5f67a326</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
